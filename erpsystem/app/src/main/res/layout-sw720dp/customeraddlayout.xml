@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="1dp"
+    card_view:cardCornerRadius="10dp"
+    card_view:cardElevation="5dp">
+
+    <LinearLayout
+        android:padding="15dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Customer Details"/>
+        <View
+            android:layout_marginTop="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#000000"/>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="4dp">
+
+
+            <EditText
+                android:id="@+id/Add_Customer_Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Customer Name"/>
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="4dp">
+
+
+            <EditText
+                android:id="@+id/Add_Customer_EmailId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Customer EmailId"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="4dp">
+            <EditText
+                android:id="@+id/Add_Customer_Address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Customer Address"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="4dp">
+            <EditText
+                android:id="@+id/Add_Customer_Mobile_Number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Customer Mobile Number"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="4dp">
+            <EditText
+                android:id="@+id/Add_Customer_GST_Number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Customer GST Number"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="4dp">
+            <EditText
+                android:id="@+id/Add_Customer_PAN_Card_Number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Customer PAN Card Number"/>
+
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

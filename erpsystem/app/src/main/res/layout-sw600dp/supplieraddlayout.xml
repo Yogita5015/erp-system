@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="1dp"
+    card_view:cardCornerRadius="10dp"
+    card_view:cardElevation="5dp">
+
+    <LinearLayout
+        android:padding="15dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Supplier Details"/>
+        <View
+            android:layout_marginTop="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#000000"/>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="4dp">
+
+
+            <EditText
+                android:id="@+id/Add_Supplier_Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Supplier Name"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="4dp">
+            <EditText
+                android:id="@+id/Add_Supplier_Address"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:hint="Supplier Address"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="4dp">
+            <EditText
+                android:id="@+id/Add_Supplier_Mobile_Number"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:hint="Supplier Mobile Number"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="4dp">
+            <EditText
+                android:id="@+id/Add_Supplier_GST_Number"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:hint="Supplier GST Number"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="4dp">
+            <EditText
+                android:id="@+id/Add_Supplier_PAN_Card_Number"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:hint="Supplier PAN Card Number"/>
+
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearLayout_2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        >
+
+        <Button
+            android:id="@+id/edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="save"
+            android:textSize="20dp"/>
+
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Cancle"
+            android:textSize="20dp" />
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
